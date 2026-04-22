@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سلة المشتريات | متجر بيرفكت</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="3 copy.css"> 
+     
+</head>
+<body>
+
+    <h1 class="cart-title"><i class="fas fa-shopping-basket"></i> حقيبة مقتنياتك</h1>
+
+    <div class="cart-wrapper">
+        <div id="cart-list">
+            </div>
+
+        <div id="cart-footer-box" style="display: none;">
+            <div class="cart-footer">
+                <div class="total-price">الإجمالي: <span id="grand-total">0</span>$</div>
+                <button class="checkout-btn" onclick="sendToWhatsApp()"><i class="fab fa-whatsapp"></i> تأكيد الطلب عبر واتساب</button>
+            </div>
+        </div>
+        
+        <div id="empty-container"></div>
+        <a href="3.html" class="back-link">← العودة للمعرض</a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="dd.js"></script>
+</body>
+</html>

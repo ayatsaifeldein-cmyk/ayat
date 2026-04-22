@@ -1,0 +1,28 @@
+body { background-color: black; color: white; padding: 20px; font-family: 'Segoe UI', Tahoma, sans-serif; }
+        .cart-title { text-align: center; color: #27ae60; margin-bottom: 30px; font-size: 2rem; }
+        
+        .cart-wrapper { max-width: 800px; margin: 0 auto; background: #111; border-radius: 15px; padding: 20px; border: 1px solid #333; }
+        
+        .cart-item { display: flex; align-items: center; justify-content: space-between; padding: 15px; border-bottom: 1px solid #222; gap: 15px; }
+        .cart-item img { width: 80px; height: 80px; border-radius: 10px; object-fit: cover; border: 1px solid #27ae60; }
+        
+        .item-info { flex: 2; }
+        .item-info h3 { margin: 0; font-size: 1.1rem; color: #fff; }
+        .item-info p { color: #27ae60; font-weight: bold; margin: 5px 0; }
+        
+        .qty-controls { display: flex; align-items: center; gap: 10px; background: #222; padding: 5px 10px; border-radius: 8px; }
+        .qty-controls button { background: #27ae60; border: none; color: white; width: 25px; height: 25px; cursor: pointer; border-radius: 5px; font-weight: bold; }
+        .qty-controls span { min-width: 20px; text-align: center; font-weight: bold; }
+        
+        .delete-btn { color: #e74c3c; cursor: pointer; font-size: 1.2rem; transition: 0.3s; }
+        .delete-btn:hover { transform: scale(1.2); }
+        
+        .cart-footer { margin-top: 30px; text-align: center; border-top: 2px solid #27ae60; padding-top: 20px; }
+        .total-price { font-size: 1.8rem; margin-bottom: 20px; }
+        .total-price span { color: #27ae60; }
+        
+        .checkout-btn { background-color: #27ae60; color: black; border: none; padding: 15px 40px; font-size: 1.2rem; font-weight: bold; border-radius: 30px; cursor: pointer; width: 100%; transition: 0.3s; }
+        .checkout-btn:hover { background-color: #2ecc71; transform: translateY(-3px); }
+        
+        .empty-msg { text-align: center; padding: 50px; font-size: 1.2rem; color: #777; }
+        .back-link { display: block; text-align: center; margin-top: 20px; color: #27ae60; text-decoration: none; }
